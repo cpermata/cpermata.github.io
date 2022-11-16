@@ -1,0 +1,166 @@
+* {
+	padding:0;
+	margin:0;
+	font-family: sans-serif;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.medsos {
+	padding:8px 0;
+	background-color: #93B5C6;
+	text-align: left;
+}
+.medsos ul li {
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+.container {
+	width:80%;
+	margin:0 auto;
+}
+.container:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+header h1 {
+	float: left;
+	padding:15px 0;
+	color: #D7C0AE;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	padding:25px 20px;
+	display: inline-block;
+}
+header ul li a:hover {
+	background-color: #C9CCD5;
+	color: #fff;
+}
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #f85f5f;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+	
+.active {
+	background-color: #B7C4CF;
+	color: rgb(122, 113, 113);
+}
+.banner {
+	height: 60vh;
+	width: 100%;
+	background-image: url("https://i.postimg.cc/tCRtMzGD/db61faf7b39834b9153aae7e790b6c6d.jpg");
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after {
+	content:'';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(20, 143, 119, .6);
+}
+.banner h2 {
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border:3px solid #fff;
+}
+section {
+	padding:50px 0;
+}
+section h3 {
+	text-align: center;
+	padding:20px 0;
+	color: #148F77;
+	margin-bottom: 25px;
+}
+.about,
+.service {
+	padding-bottom: 100px;
+}
+.about p {
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.content {
+	background-color: #f9f9f9;
+}
+.row {
+	display: flex;
+  }
+  
+  .column {
+	flex: 33.33%;
+	padding: 5px;
+  }
+/* Main styles */
+
+.button-readmore:after {
+  content: 'Read more'
+}
+.button-readmore {
+  padding: 5px 20px;
+  background: #a05454;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button-readmore:hover {
+  background: rgb(119, 26, 26);
+}
+
+/* Hide input checkbox */
+#check-readmore {
+  position: absolute;
+  left: -100px;
+}
+footer{
+	padding:8px 0;
+	background-color: #93B5C6;
+}
+table{
+	text-align: center;
+}
